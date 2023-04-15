@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off",
+        "label": "off"
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "input[type=date]"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}
